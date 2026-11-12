@@ -1,0 +1,394 @@
+[
+  {
+    "sku": "NB-001", "nome": "Notebook Acer Nitro 5", "marca": "Acer", "categoria": "Notebooks",
+    "preco": 5499.0, "estoque": 12,
+    "descricao": "Notebook gamer com RTX 3050 e tela de 144 Hz para jogos em Full HD.",
+    "tags": ["gamer", "notebook", "rtx", "144hz"],
+    "imagem": "https://placehold.co/400x300?text=Acer+Nitro+5",
+    "especificacoes": {"processador": "Intel Core i5-12450H", "memoria_ram_gb": 16, "armazenamento_gb": 512,
+      "tipo_armazenamento": "SSD NVMe", "placa_video": "NVIDIA GeForce RTX 3050 4GB", "tela_polegadas": 15.6,
+      "taxa_atualizacao_hz": 144, "sistema_operacional": "Windows 11", "peso_kg": 2.5}
+  },
+  {
+    "sku": "NB-002", "nome": "Notebook Lenovo IdeaPad 3i", "marca": "Lenovo", "categoria": "Notebooks",
+    "preco": 2799.0, "estoque": 20,
+    "descricao": "Notebook leve para estudo e trabalho, com SSD rápido e boa autonomia.",
+    "tags": ["estudo", "trabalho", "notebook", "basico"],
+    "imagem": "https://placehold.co/400x300?text=IdeaPad+3i",
+    "especificacoes": {"processador": "Intel Core i3-1215U", "memoria_ram_gb": 8, "armazenamento_gb": 256,
+      "tipo_armazenamento": "SSD NVMe", "placa_video": "Intel UHD integrada", "tela_polegadas": 15.6,
+      "sistema_operacional": "Windows 11", "peso_kg": 1.6}
+  },
+  {
+    "sku": "NB-003", "nome": "Notebook Dell Inspiron 15", "marca": "Dell", "categoria": "Notebooks",
+    "preco": 4999.0, "estoque": 9,
+    "descricao": "Notebook premium para produtividade, com i7 e 16 GB de RAM.",
+    "tags": ["trabalho", "profissional", "notebook", "i7"],
+    "imagem": "https://placehold.co/400x300?text=Inspiron+15",
+    "especificacoes": {"processador": "Intel Core i7-1255U", "memoria_ram_gb": 16, "armazenamento_gb": 512,
+      "tipo_armazenamento": "SSD NVMe", "placa_video": "Intel Iris Xe", "tela_polegadas": 15.6,
+      "sistema_operacional": "Windows 11 Pro", "peso_kg": 1.7, "leitor_biometrico": true}
+  },
+  {
+    "sku": "NB-004", "nome": "MacBook Air M2", "marca": "Apple", "categoria": "Notebooks",
+    "preco": 8999.0, "estoque": 6,
+    "descricao": "Ultrafino com chip M2, tela Liquid Retina e até 18 horas de bateria.",
+    "tags": ["apple", "macbook", "profissional", "ultrafino"],
+    "imagem": "https://placehold.co/400x300?text=MacBook+Air+M2",
+    "especificacoes": {"processador": "Apple M2 (8 núcleos)", "memoria_ram_gb": 8, "armazenamento_gb": 256,
+      "tipo_armazenamento": "SSD", "tela_polegadas": 13.6, "sistema_operacional": "macOS", "peso_kg": 1.24,
+      "autonomia_bateria_h": 18}
+  },
+  {
+    "sku": "NB-005", "nome": "Notebook ASUS TUF Gaming F15", "marca": "ASUS", "categoria": "Notebooks",
+    "preco": 7499.0, "estoque": 7,
+    "descricao": "Gamer robusto com RTX 4060, i7 de 12ª geração e teclado RGB.",
+    "tags": ["gamer", "notebook", "rtx", "rgb", "144hz"],
+    "imagem": "https://placehold.co/400x300?text=TUF+Gaming+F15",
+    "especificacoes": {"processador": "Intel Core i7-12700H", "memoria_ram_gb": 16, "armazenamento_gb": 512,
+      "tipo_armazenamento": "SSD NVMe", "placa_video": "NVIDIA GeForce RTX 4060 8GB", "tela_polegadas": 15.6,
+      "taxa_atualizacao_hz": 144, "sistema_operacional": "Windows 11", "peso_kg": 2.2, "teclado_rgb": true}
+  },
+  {
+    "sku": "NB-006", "nome": "Samsung Galaxy Book3", "marca": "Samsung", "categoria": "Notebooks",
+    "preco": 3999.0, "estoque": 11,
+    "descricao": "Fino e leve, integra com o celular Galaxy e tem 512 GB de SSD.",
+    "tags": ["samsung", "trabalho", "notebook", "leve"],
+    "imagem": "https://placehold.co/400x300?text=Galaxy+Book3",
+    "especificacoes": {"processador": "Intel Core i5-1335U", "memoria_ram_gb": 8, "armazenamento_gb": 512,
+      "tipo_armazenamento": "SSD NVMe", "placa_video": "Intel Iris Xe", "tela_polegadas": 15.6,
+      "sistema_operacional": "Windows 11", "peso_kg": 1.58}
+  },
+
+  {
+    "sku": "SM-001", "nome": "Samsung Galaxy S24", "marca": "Samsung", "categoria": "Smartphones",
+    "preco": 4299.0, "estoque": 15,
+    "descricao": "Top de linha com Galaxy AI, tela de 120 Hz e câmera de 50 MP.",
+    "tags": ["samsung", "android", "5g", "celular", "premium"],
+    "imagem": "https://placehold.co/400x300?text=Galaxy+S24",
+    "especificacoes": {"tela_polegadas": 6.2, "armazenamento_gb": 128, "memoria_ram_gb": 8,
+      "camera_principal_mp": 50, "bateria_mah": 4000, "sistema_operacional": "Android 14", "rede_5g": true,
+      "resistencia_agua": "IP68"}
+  },
+  {
+    "sku": "SM-002", "nome": "iPhone 15", "marca": "Apple", "categoria": "Smartphones",
+    "preco": 5999.0, "estoque": 10,
+    "descricao": "iPhone com Dynamic Island, câmera de 48 MP e conector USB-C.",
+    "tags": ["apple", "iphone", "ios", "5g", "celular"],
+    "imagem": "https://placehold.co/400x300?text=iPhone+15",
+    "especificacoes": {"tela_polegadas": 6.1, "armazenamento_gb": 128, "memoria_ram_gb": 6,
+      "camera_principal_mp": 48, "bateria_mah": 3349, "sistema_operacional": "iOS 17", "rede_5g": true,
+      "conector": "USB-C"}
+  },
+  {
+    "sku": "SM-003", "nome": "Motorola Edge 50 Pro", "marca": "Motorola", "categoria": "Smartphones",
+    "preco": 2999.0, "estoque": 18,
+    "descricao": "Tela curva pOLED de 144 Hz e carregamento de 125 W.",
+    "tags": ["motorola", "android", "5g", "celular"],
+    "imagem": "https://placehold.co/400x300?text=Edge+50+Pro",
+    "especificacoes": {"tela_polegadas": 6.7, "armazenamento_gb": 256, "memoria_ram_gb": 12,
+      "camera_principal_mp": 50, "bateria_mah": 4500, "sistema_operacional": "Android 14", "rede_5g": true,
+      "carregamento_w": 125}
+  },
+  {
+    "sku": "SM-004", "nome": "Xiaomi Redmi Note 13 Pro", "marca": "Xiaomi", "categoria": "Smartphones",
+    "preco": 1899.0, "estoque": 25,
+    "descricao": "Custo-benefício com câmera de 200 MP e tela AMOLED.",
+    "tags": ["xiaomi", "android", "celular", "custo-beneficio"],
+    "imagem": "https://placehold.co/400x300?text=Redmi+Note+13+Pro",
+    "especificacoes": {"tela_polegadas": 6.67, "armazenamento_gb": 256, "memoria_ram_gb": 8,
+      "camera_principal_mp": 200, "bateria_mah": 5100, "sistema_operacional": "Android 13", "rede_5g": false}
+  },
+  {
+    "sku": "SM-005", "nome": "Samsung Galaxy A55", "marca": "Samsung", "categoria": "Smartphones",
+    "preco": 2199.0, "estoque": 22,
+    "descricao": "Intermediário premium com 5G, tela Super AMOLED e 4 anos de atualizações.",
+    "tags": ["samsung", "android", "5g", "celular", "intermediario"],
+    "imagem": "https://placehold.co/400x300?text=Galaxy+A55",
+    "especificacoes": {"tela_polegadas": 6.6, "armazenamento_gb": 128, "memoria_ram_gb": 8,
+      "camera_principal_mp": 50, "bateria_mah": 5000, "sistema_operacional": "Android 14", "rede_5g": true}
+  },
+  {
+    "sku": "SM-006", "nome": "Google Pixel 8", "marca": "Google", "categoria": "Smartphones",
+    "preco": 4499.0, "estoque": 8,
+    "descricao": "Android puro com chip Tensor G3 e 7 anos de atualizações.",
+    "tags": ["google", "pixel", "android", "5g", "celular"],
+    "imagem": "https://placehold.co/400x300?text=Pixel+8",
+    "especificacoes": {"tela_polegadas": 6.2, "armazenamento_gb": 128, "memoria_ram_gb": 8,
+      "camera_principal_mp": 50, "bateria_mah": 4575, "sistema_operacional": "Android 14", "rede_5g": true}
+  },
+
+  {
+    "sku": "PF-001", "nome": "Mouse Logitech G Pro X Superlight", "marca": "Logitech", "categoria": "Periféricos",
+    "preco": 699.0, "estoque": 30,
+    "descricao": "Mouse gamer sem fio ultraleve usado por profissionais de e-sports.",
+    "tags": ["mouse", "gamer", "sem fio", "esports"],
+    "imagem": "https://placehold.co/400x300?text=G+Pro+X+Superlight",
+    "especificacoes": {"tipo": "mouse", "sensor_dpi": 25600, "sem_fio": true, "peso_g": 63, "botoes": 5,
+      "autonomia_h": 70}
+  },
+  {
+    "sku": "PF-002", "nome": "Teclado Mecânico Redragon Kumara K552", "marca": "Redragon", "categoria": "Periféricos",
+    "preco": 249.0, "estoque": 40,
+    "descricao": "Teclado mecânico compacto com switches vermelhos e iluminação RGB.",
+    "tags": ["teclado", "mecanico", "gamer", "rgb", "abnt2"],
+    "imagem": "https://placehold.co/400x300?text=Kumara+K552",
+    "especificacoes": {"tipo": "teclado", "switch": "Outemu Red", "layout": "ABNT2", "formato": "TKL (87 teclas)",
+      "iluminacao": "RGB", "conexao": "USB com fio"}
+  },
+  {
+    "sku": "PF-003", "nome": "Teclado HyperX Alloy Origins", "marca": "HyperX", "categoria": "Periféricos",
+    "preco": 549.0, "estoque": 14,
+    "descricao": "Teclado mecânico em alumínio com switches HyperX Red e cabo destacável.",
+    "tags": ["teclado", "mecanico", "gamer", "rgb"],
+    "imagem": "https://placehold.co/400x300?text=Alloy+Origins",
+    "especificacoes": {"tipo": "teclado", "switch": "HyperX Red", "layout": "US", "formato": "Full size",
+      "iluminacao": "RGB", "conexao": "USB-C destacável", "corpo": "alumínio"}
+  },
+  {
+    "sku": "PF-004", "nome": "Mouse Logitech MX Master 3S", "marca": "Logitech", "categoria": "Periféricos",
+    "preco": 599.0, "estoque": 16,
+    "descricao": "Mouse ergonômico para produtividade, silencioso, conecta em 3 dispositivos.",
+    "tags": ["mouse", "trabalho", "ergonomico", "sem fio", "bluetooth"],
+    "imagem": "https://placehold.co/400x300?text=MX+Master+3S",
+    "especificacoes": {"tipo": "mouse", "sensor_dpi": 8000, "sem_fio": true, "peso_g": 141, "botoes": 7,
+      "autonomia_dias": 70, "multidispositivo": 3}
+  },
+  {
+    "sku": "PF-005", "nome": "Mouse Razer DeathAdder V3", "marca": "Razer", "categoria": "Periféricos",
+    "preco": 449.0, "estoque": 21,
+    "descricao": "Mouse gamer ergonômico com sensor Focus Pro 30K e switches ópticos.",
+    "tags": ["mouse", "gamer", "razer"],
+    "imagem": "https://placehold.co/400x300?text=DeathAdder+V3",
+    "especificacoes": {"tipo": "mouse", "sensor_dpi": 30000, "sem_fio": false, "peso_g": 59, "botoes": 6}
+  },
+  {
+    "sku": "PF-006", "nome": "Webcam Logitech C920", "marca": "Logitech", "categoria": "Periféricos",
+    "preco": 399.0, "estoque": 18,
+    "descricao": "Webcam Full HD com dois microfones para reuniões e streaming.",
+    "tags": ["webcam", "trabalho", "streaming", "home office"],
+    "imagem": "https://placehold.co/400x300?text=Webcam+C920",
+    "especificacoes": {"tipo": "webcam", "resolucao": "1080p", "fps": 30, "microfone": "estéreo",
+      "campo_visao_graus": 78}
+  },
+
+  {
+    "sku": "CS-001", "nome": "PlayStation 5 Slim", "marca": "Sony", "categoria": "Consoles",
+    "preco": 3799.0, "estoque": 9,
+    "descricao": "Console da nova geração com leitor de disco, SSD de 1 TB e controle DualSense.",
+    "tags": ["playstation", "ps5", "console", "sony", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=PS5+Slim",
+    "especificacoes": {"armazenamento_gb": 1000, "leitor_disco": true, "resolucao_maxima": "4K",
+      "taxa_quadros_maxima": 120, "controle_incluso": "DualSense", "geracao": "9ª"}
+  },
+  {
+    "sku": "CS-002", "nome": "PlayStation 5 Digital Edition", "marca": "Sony", "categoria": "Consoles",
+    "preco": 3299.0, "estoque": 7,
+    "descricao": "Versão sem leitor de disco do PS5, para quem compra jogos na PS Store.",
+    "tags": ["playstation", "ps5", "console", "sony", "digital", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=PS5+Digital",
+    "especificacoes": {"armazenamento_gb": 1000, "leitor_disco": false, "resolucao_maxima": "4K",
+      "taxa_quadros_maxima": 120, "controle_incluso": "DualSense", "geracao": "9ª"}
+  },
+  {
+    "sku": "CS-003", "nome": "Xbox Series X", "marca": "Microsoft", "categoria": "Consoles",
+    "preco": 3999.0, "estoque": 8,
+    "descricao": "O Xbox mais potente, 12 teraflops e 1 TB de SSD, compatível com Game Pass.",
+    "tags": ["xbox", "console", "microsoft", "gamer", "game pass"],
+    "imagem": "https://placehold.co/400x300?text=Xbox+Series+X",
+    "especificacoes": {"armazenamento_gb": 1000, "leitor_disco": true, "resolucao_maxima": "4K",
+      "taxa_quadros_maxima": 120, "controle_incluso": "Xbox Wireless", "geracao": "9ª", "teraflops": 12}
+  },
+  {
+    "sku": "CS-004", "nome": "Xbox Series S", "marca": "Microsoft", "categoria": "Consoles",
+    "preco": 2499.0, "estoque": 13,
+    "descricao": "Console compacto totalmente digital, ideal para o Game Pass.",
+    "tags": ["xbox", "console", "microsoft", "digital", "gamer", "game pass"],
+    "imagem": "https://placehold.co/400x300?text=Xbox+Series+S",
+    "especificacoes": {"armazenamento_gb": 512, "leitor_disco": false, "resolucao_maxima": "1440p",
+      "taxa_quadros_maxima": 120, "controle_incluso": "Xbox Wireless", "geracao": "9ª"}
+  },
+  {
+    "sku": "CS-005", "nome": "Nintendo Switch OLED", "marca": "Nintendo", "categoria": "Consoles",
+    "preco": 2299.0, "estoque": 14,
+    "descricao": "Híbrido portátil com tela OLED de 7 polegadas e 64 GB.",
+    "tags": ["nintendo", "switch", "console", "portatil", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=Switch+OLED",
+    "especificacoes": {"armazenamento_gb": 64, "leitor_disco": false, "midia": "cartucho",
+      "tela_polegadas": 7.0, "tipo_tela": "OLED", "portatil": true, "controle_incluso": "Joy-Con (par)"}
+  },
+  {
+    "sku": "CS-006", "nome": "Steam Deck OLED 512GB", "marca": "Valve", "categoria": "Consoles",
+    "preco": 4599.0, "estoque": 5,
+    "descricao": "PC portátil para jogar a biblioteca Steam em qualquer lugar.",
+    "tags": ["steam", "pc", "portatil", "console", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=Steam+Deck+OLED",
+    "especificacoes": {"armazenamento_gb": 512, "tela_polegadas": 7.4, "tipo_tela": "OLED HDR",
+      "portatil": true, "sistema_operacional": "SteamOS", "memoria_ram_gb": 16}
+  },
+
+  {
+    "sku": "JG-001", "nome": "God of War Ragnarök", "marca": "Sony Interactive", "categoria": "Jogos",
+    "preco": 249.0, "estoque": 35,
+    "descricao": "Kratos e Atreus enfrentam o fim dos tempos na mitologia nórdica.",
+    "tags": ["jogo", "ps5", "acao", "aventura", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=God+of+War",
+    "especificacoes": {"plataforma": "PS5", "genero": "Ação / Aventura", "classificacao_etaria": 18,
+      "modo_online": false, "midia": "física", "legendas_pt_br": true, "dublagem_pt_br": true}
+  },
+  {
+    "sku": "JG-002", "nome": "The Legend of Zelda: Tears of the Kingdom", "marca": "Nintendo", "categoria": "Jogos",
+    "preco": 349.0, "estoque": 20,
+    "descricao": "Explore Hyrule e os céus em uma aventura épica de mundo aberto.",
+    "tags": ["jogo", "switch", "aventura", "mundo aberto", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=Zelda+TotK",
+    "especificacoes": {"plataforma": "Nintendo Switch", "genero": "Aventura", "classificacao_etaria": 10,
+      "modo_online": false, "midia": "cartucho", "legendas_pt_br": true, "dublagem_pt_br": false}
+  },
+  {
+    "sku": "JG-003", "nome": "EA Sports FC 25", "marca": "EA Sports", "categoria": "Jogos",
+    "preco": 299.0, "estoque": 40,
+    "descricao": "Futebol com o novo FC IQ e Ultimate Team online.",
+    "tags": ["jogo", "ps5", "futebol", "esporte", "online", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=EA+FC+25",
+    "especificacoes": {"plataforma": "PS5", "genero": "Esporte", "classificacao_etaria": 0,
+      "modo_online": true, "midia": "física", "legendas_pt_br": true, "dublagem_pt_br": true}
+  },
+  {
+    "sku": "JG-004", "nome": "Forza Horizon 5", "marca": "Xbox Game Studios", "categoria": "Jogos",
+    "preco": 199.0, "estoque": 25,
+    "descricao": "Corrida em mundo aberto no México com centenas de carros.",
+    "tags": ["jogo", "xbox", "corrida", "mundo aberto", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=Forza+Horizon+5",
+    "especificacoes": {"plataforma": "Xbox Series X|S", "genero": "Corrida", "classificacao_etaria": 10,
+      "modo_online": true, "midia": "física", "legendas_pt_br": true, "dublagem_pt_br": true}
+  },
+  {
+    "sku": "JG-005", "nome": "Elden Ring", "marca": "Bandai Namco", "categoria": "Jogos",
+    "preco": 229.0, "estoque": 18,
+    "descricao": "RPG de ação desafiador em um mundo criado com George R. R. Martin.",
+    "tags": ["jogo", "ps5", "rpg", "souls", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=Elden+Ring",
+    "especificacoes": {"plataforma": "PS5", "genero": "RPG de ação", "classificacao_etaria": 16,
+      "modo_online": true, "midia": "física", "legendas_pt_br": true, "dublagem_pt_br": false}
+  },
+  {
+    "sku": "JG-006", "nome": "Mario Kart 8 Deluxe", "marca": "Nintendo", "categoria": "Jogos",
+    "preco": 299.0, "estoque": 30,
+    "descricao": "Corrida divertida para toda a família, com 48 pistas e multiplayer local.",
+    "tags": ["jogo", "switch", "corrida", "familia", "multiplayer", "gamer"],
+    "imagem": "https://placehold.co/400x300?text=Mario+Kart+8",
+    "especificacoes": {"plataforma": "Nintendo Switch", "genero": "Corrida", "classificacao_etaria": 0,
+      "modo_online": true, "midia": "cartucho", "jogadores_local": 4, "legendas_pt_br": true}
+  },
+
+  {
+    "sku": "AU-001", "nome": "Headphone Sony WH-1000XM5", "marca": "Sony", "categoria": "Áudio",
+    "preco": 2199.0, "estoque": 10,
+    "descricao": "Referência em cancelamento de ruído, 30 h de bateria e som Hi-Res.",
+    "tags": ["headphone", "bluetooth", "cancelamento de ruido", "premium", "audio"],
+    "imagem": "https://placehold.co/400x300?text=WH-1000XM5",
+    "especificacoes": {"tipo": "headphone over-ear", "cancelamento_ruido": true, "bluetooth": "5.2",
+      "autonomia_h": 30, "microfone": true, "peso_g": 250}
+  },
+  {
+    "sku": "AU-002", "nome": "Apple AirPods Pro 2", "marca": "Apple", "categoria": "Áudio",
+    "preco": 1999.0, "estoque": 12,
+    "descricao": "Fones intra-auriculares com cancelamento adaptativo e estojo USB-C.",
+    "tags": ["fone", "bluetooth", "apple", "cancelamento de ruido", "audio"],
+    "imagem": "https://placehold.co/400x300?text=AirPods+Pro+2",
+    "especificacoes": {"tipo": "fone intra-auricular", "cancelamento_ruido": true, "bluetooth": "5.3",
+      "autonomia_h": 6, "autonomia_com_estojo_h": 30, "resistencia_agua": "IP54"}
+  },
+  {
+    "sku": "AU-003", "nome": "Fone JBL Tune 520BT", "marca": "JBL", "categoria": "Áudio",
+    "preco": 299.0, "estoque": 28,
+    "descricao": "Headphone on-ear com JBL Pure Bass e 57 h de bateria.",
+    "tags": ["headphone", "bluetooth", "jbl", "custo-beneficio", "audio"],
+    "imagem": "https://placehold.co/400x300?text=JBL+Tune+520BT",
+    "especificacoes": {"tipo": "headphone on-ear", "cancelamento_ruido": false, "bluetooth": "5.3",
+      "autonomia_h": 57, "microfone": true}
+  },
+  {
+    "sku": "AU-004", "nome": "Headset Gamer HyperX Cloud II", "marca": "HyperX", "categoria": "Áudio",
+    "preco": 499.0, "estoque": 22,
+    "descricao": "Headset gamer confortável com som surround 7.1 e microfone destacável.",
+    "tags": ["headset", "gamer", "microfone", "7.1", "audio"],
+    "imagem": "https://placehold.co/400x300?text=HyperX+Cloud+II",
+    "especificacoes": {"tipo": "headset gamer", "som_surround": "7.1 virtual", "microfone_destacavel": true,
+      "conexao": "USB / P2", "compatibilidade": ["PC", "PS5", "Xbox", "Switch"]}
+  },
+  {
+    "sku": "AU-005", "nome": "Samsung Galaxy Buds2 Pro", "marca": "Samsung", "categoria": "Áudio",
+    "preco": 899.0, "estoque": 16,
+    "descricao": "Fones compactos com áudio Hi-Fi 24 bits e cancelamento inteligente.",
+    "tags": ["fone", "bluetooth", "samsung", "cancelamento de ruido", "audio"],
+    "imagem": "https://placehold.co/400x300?text=Galaxy+Buds2+Pro",
+    "especificacoes": {"tipo": "fone intra-auricular", "cancelamento_ruido": true, "bluetooth": "5.3",
+      "autonomia_h": 5, "autonomia_com_estojo_h": 18, "resistencia_agua": "IPX7"}
+  },
+  {
+    "sku": "AU-006", "nome": "Caixa de Som JBL Flip 6", "marca": "JBL", "categoria": "Áudio",
+    "preco": 599.0, "estoque": 19,
+    "descricao": "Caixa Bluetooth portátil à prova d'água com 12 h de bateria.",
+    "tags": ["caixa de som", "bluetooth", "jbl", "portatil", "audio"],
+    "imagem": "https://placehold.co/400x300?text=JBL+Flip+6",
+    "especificacoes": {"tipo": "caixa de som portátil", "potencia_w": 30, "bluetooth": "5.1",
+      "autonomia_h": 12, "resistencia_agua": "IP67"}
+  },
+
+  {
+    "sku": "AC-001", "nome": "Carregador Anker 65W GaN", "marca": "Anker", "categoria": "Acessórios",
+    "preco": 299.0, "estoque": 45,
+    "descricao": "Carregador compacto de 65 W que alimenta notebook, celular e fone ao mesmo tempo.",
+    "tags": ["carregador", "usb-c", "gan", "acessorio"],
+    "imagem": "https://placehold.co/400x300?text=Anker+65W",
+    "especificacoes": {"tipo": "carregador", "potencia_w": 65, "portas": ["USB-C", "USB-C", "USB-A"],
+      "tecnologia": "GaN", "bivolt": true}
+  },
+  {
+    "sku": "AC-002", "nome": "Capa Spigen Ultra Hybrid iPhone 15", "marca": "Spigen", "categoria": "Acessórios",
+    "preco": 149.0, "estoque": 60,
+    "descricao": "Capa transparente antiamarelamento com proteção militar contra quedas.",
+    "tags": ["capa", "iphone", "protecao", "acessorio"],
+    "imagem": "https://placehold.co/400x300?text=Capa+Spigen",
+    "especificacoes": {"tipo": "capa", "compatibilidade": "iPhone 15", "material": "TPU + PC",
+      "cor": "transparente", "protecao_quedas": "padrão militar"}
+  },
+  {
+    "sku": "AC-003", "nome": "Cabo USB-C Baseus 100W 2m", "marca": "Baseus", "categoria": "Acessórios",
+    "preco": 79.0, "estoque": 80,
+    "descricao": "Cabo trançado USB-C para USB-C com suporte a 100 W e transferência de dados.",
+    "tags": ["cabo", "usb-c", "acessorio"],
+    "imagem": "https://placehold.co/400x300?text=Cabo+USB-C",
+    "especificacoes": {"tipo": "cabo", "conectores": "USB-C / USB-C", "comprimento_m": 2, "potencia_w": 100,
+      "material": "nylon trançado"}
+  },
+  {
+    "sku": "AC-004", "nome": "Power Bank Xiaomi 20000mAh", "marca": "Xiaomi", "categoria": "Acessórios",
+    "preco": 249.0, "estoque": 35,
+    "descricao": "Bateria externa de 20.000 mAh com carregamento rápido de 22,5 W.",
+    "tags": ["power bank", "bateria", "xiaomi", "acessorio"],
+    "imagem": "https://placehold.co/400x300?text=Power+Bank",
+    "especificacoes": {"tipo": "power bank", "capacidade_mah": 20000, "potencia_w": 22.5,
+      "portas": ["USB-C", "USB-A", "USB-A"], "peso_g": 420}
+  },
+  {
+    "sku": "AC-005", "nome": "Suporte para Notebook em Alumínio", "marca": "Octoo", "categoria": "Acessórios",
+    "preco": 129.0, "estoque": 40,
+    "descricao": "Suporte ergonômico ajustável em alumínio para notebooks de 11 a 17 polegadas.",
+    "tags": ["suporte", "notebook", "ergonomia", "home office", "acessorio"],
+    "imagem": "https://placehold.co/400x300?text=Suporte+Notebook",
+    "especificacoes": {"tipo": "suporte", "material": "alumínio", "compatibilidade_polegadas": "11 a 17",
+      "ajustavel": true, "dobravel": true}
+  },
+  {
+    "sku": "AC-006", "nome": "Película de Vidro Galaxy S24", "marca": "Gshield", "categoria": "Acessórios",
+    "preco": 49.0, "estoque": 100,
+    "descricao": "Película de vidro temperado 3D com aplicação fácil e sensibilidade total ao toque.",
+    "tags": ["pelicula", "samsung", "protecao", "acessorio"],
+    "imagem": "https://placehold.co/400x300?text=Pelicula+S24",
+    "especificacoes": {"tipo": "película", "compatibilidade": "Galaxy S24", "material": "vidro temperado 9H",
+      "cobertura": "3D tela inteira"}
+  }
+]

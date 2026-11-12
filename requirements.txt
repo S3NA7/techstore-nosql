@@ -1,0 +1,10 @@
+# Aplicação
+streamlit>=1.50   # st.badge, width="stretch", st.navigation
+pymongo>=4.8
+redis>=5.0
+neo4j>=5.20
+python-dotenv>=1.0
+pyvis>=0.3.2
+pandas>=2.0
+# Scripts de carga
+Faker>=30.0

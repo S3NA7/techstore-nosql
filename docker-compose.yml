@@ -1,0 +1,67 @@
+# Sobe os três bancos de dados do projeto. O app Streamlit pode rodar localmente
+# (venv) ou dentro do compose com o perfil "app":
+#   docker compose up -d                 -> só os bancos (desenvolvimento local)
+#   docker compose --profile app up -d   -> bancos + aplicação em http://localhost:8501
+services:
+  mongo:
+    image: mongo:7
+    container_name: techstore-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval \"db.adminCommand('ping').ok\" | grep -q 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: techstore-redis
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  neo4j:
+    image: neo4j:5
+    container_name: techstore-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/techstore123
+    ports:
+      - "7474:7474"   # Neo4j Browser
+      - "7687:7687"   # Bolt
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  app:
+    build: .
+    container_name: techstore-app
+    profiles: ["app"]
+    env_file: .env.docker
+    ports:
+      - "8501:8501"
+    depends_on:
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+
+volumes:
+  mongo_data:
+  redis_data:
+  neo4j_data:
